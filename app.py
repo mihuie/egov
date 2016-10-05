@@ -16,3 +16,7 @@ def about():
 @app.route('/login')
 def login():
     return 'This is login page'
+
+@app.route('/contact')
+def contact():
+    return 'This is contact page'
