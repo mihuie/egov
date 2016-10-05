@@ -22,4 +22,4 @@ def contact(option="mail"):
     if option == "mail":
         return 'Enter your email here: <input type="text" name="email">'
     else:
-        return 'This is contact page. \nWe are located at 1b James street, Kgn 5'
+        return 'This is contact page. \nWe are located at 1b James street, Kgn 5 \nOpening hours 8am - 5pm'
