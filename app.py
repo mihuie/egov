@@ -13,3 +13,6 @@ def hello_world():
 def about():
     return 'This is about page'
 
+@app.route('/login')
+def login():
+    return 'This is login page'
