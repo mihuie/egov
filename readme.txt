@@ -1,1 +1,2 @@
-This is a sample of basic git commands.
+Basic git commands
+git is awesome
