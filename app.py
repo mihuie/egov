@@ -18,5 +18,8 @@ def login():
     return 'This is login page'
 
 @app.route('/contact')
-def contact():
-    return 'This is contact page'
+def contact(option="mail"):
+    if option == "mail":
+        return 'Enter your email here: <input type="text" name="email">'
+    else:
+        return 'This is contact page'
